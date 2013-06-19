@@ -1,0 +1,99 @@
+body,html,* { margin:0; padding:0; }
+body,html { background-color:#005A86; }
+* {font-family:Helvetica,Arial; font-size:12px; }
+label { display:block; font-weight:bold;}
+.clear { clear:both; }
+.required { color:#EE2222; font-size: 14px; font-weight: bold;}
+
+.normal { }
+.even { background-color: #f0f0f0; }
+
+.msg_alert { background-color: #FFDE21; color:#8C761C; border:1px solid #B59A26; padding: 10px; text-align: center; font-weight: bold}
+.msg_float { position: absolute; left:50%; width:500px; margin-top:0px; margin-left:-266px; padding:15px; }
+
+/* LOGIN STYLE */
+#login { text-align:center; }
+#loginform { width:160px; text-align:left; margin:0 auto; }
+	#loginformsubmit { width:100%; }
+
+
+/* MAIN DESIGN STYLE */
+#dash_container {  }
+#dash_header { height:55px; background-color:#ffffff; color:#005A86; }
+	#dash_logo { float:left;  }
+	#dash_user { float:right; line-height:50px; margin-right:5px;  }
+#dash_menu { height:30px; text-align:right; }
+	#dash_menu ul { padding:0; margin:0; list-style:none; float:right;}
+		#dash_menu ul li { display:inline; float:left; padding:0px; }
+		#dash_menu ul li a { text-decoration:none; padding:7px 12px; margin: 0px 3px; line-height:30px; color:#73A9C0; }
+		#dash_menu ul li a:hover { background-color:#e9e9e9;}
+		#dash_menu ul li.selected { background-color:#ffffff; color:#1E4767; font-weight: bold;}
+#dash_content { background-color:#FFFFFF; min-height:100px; }
+#dash_footer { color:#73A9C0; font-size:10px; padding:5px; text-align:center;}
+	#dash_footer a { color:#7CBFD5;}
+
+/* CRM DASHBOARD ADMIN */
+#enteringdiv { width:49%; float:left; border:1px solid #e0e0e0; }
+#enteringdiv h3 { padding:5px; margin:0px; font-size:14px; background-color:#61A333; color:#ffffff;}
+
+.callCounter { background-color:#E10404; color:#ffffff; font-weight:bold; padding:5px; position:relative; float:left; margin-top:-29px; margin-left:150px; }
+.firstinline { background-color:#ffffcc;}
+
+#offdiv { width:49%; float:right; border:1px solid #e0e0e0;}
+#offdiv h3 { padding:5px; margin:0px; font-size:14px; background-color:#A11522; color:#ffffff;} 
+
+#configdashboard { width:70%; margin:0 auto; text-align: center }
+	#configdashboard ul { width:100%; list-style:none; display: block; }
+	#configdashboard ul li { display:inline; margin-right: 10px; padding: 0px;}
+	#configdashboard ul li a { padding: 10px; background-color: #f0f0f0; border:1px #e0e0e0 solid; color:#303030; font-weight: bold; text-decoration: none; }
+	#configdashboard ul li a:hover { background-color: #80BCDF; border:1px #004873 solid; color:#ffffff; }
+	#configdashboard ul li a img { clear:both }
+
+.addbutton { padding: 5px; background-color: #f0f0f0; border:1px #e0e0e0 solid; color:#303030; font-weight: bold; text-decoration: none; margin-bottom: 15px; line-height: 30px}
+.addbutton:hover { background-color: #80BCDF; border:1px #004873 solid; color:#00243C; }
+
+/* INTERFACE STYLES */
+fieldset { width:500px; margin:0 auto; border:0px; background-color:#f0f0f0; }
+	fieldset h3 { font-size:14px; margin:3px 0px 0px 0px; padding:5px; background-color:#a0a0a0; color:#ffffff;}
+	fieldset ul { list-style:none; padding:0px; margin:15px 0px 15px 0px; }
+	fieldset legend { font-weight:bold; font-size:14px; color:#505050;}
+
+#online { color:#a0a0a0; }
+#offline { color:#a0a0a0; }
+.statusNone { color:#a0a0a0; font-weight:normal; }
+.statusOnline { color:#ffffff !important; background-color:#66DF02; padding:2px 6px 2px 6px; font-weight:bold; }
+.statusOffline { color:#ffffff !important; background-color:#E10404; padding:2px 6px 2px 6px; font-weight:bold; }
+
+.tableheader { font-weight:bold; background-color:#004873; color:#ffffff;}
+.tablefilters { background-color:#CAECFF; font-weight:bold; border:1px solid #99DCFF; }
+
+/* CHAT WINDOW STYLES */
+#chattext {
+	min-height:300px;
+	height:300px;
+	overflow:auto;
+	border:none;
+	padding:10 5px 10px 5px;
+	font-size:10px;
+}
+#chatquestion { 
+	background-image:url(../images/question.gif); background-position:top left; background-repeat:no-repeat; 
+	background-color:#f0f0f0; color:#000000; display:block; 
+	clear:both; min-height:30px; text-align:center; font-weight:bold;
+	padding:4px 5px;
+	border-bottom:1px solid #909090;
+}
+
+#chatmiddle { background-color: #f0f0f0;}
+#chatstatus { width:39%; float:left; }
+#chatmenu { width:49%; float:right; text-align:right; height:30px; }
+
+.chatwelcome { clear:both; background-color:#f0f0f0; color:#D35F26; border:1px solid #e0e0e0; padding: 3px; width:97%; font-size:11px; font-weight:bold; }
+
+.usertalk { border:2px solid #4444AA; color:#4444AA; padding: 5px; width:85%; float:left; margin-bottom: 5px;}
+.usertalkid { font-weight: bold; }
+
+.optalk { border:2px solid #303030; color:#303030; padding: 5px; width:85%; float:right; margin-bottom: 5px;}
+.optalkid { font-weight: bold; }
+
+.chatenviar { padding:3px; float:right; width:70px; min-height:30px; margin:0px 5px 0 0; font-weight:bold; border:1px solid #e0e0e0; background:#e0e0e0; }
